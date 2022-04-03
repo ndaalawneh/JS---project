@@ -1,17 +1,17 @@
-
-var r =20;
-
+var savedScore = localStorage.getItem("score");
 
 
-if(r<50){
-document.getElementById("result").innerHTML= r ;
-document.getElementById("d").style.background="#F24726";
-document.getElementsByClassName("result")[0].style.background="#F24726";
-document.getElementById("d").style.color="#F24726"; 
-document.getElementById("massage").innerHTML="Unfortunately  ";
-document.getElementById("cmassage").innerHTML=" You did not fulfill our requirements , Good Luck . ";
-document.getElementById("emoji").src="https://acegif.com/wp-content/uploads/2022/4hv9xm/crying-emoji-9.gif"
+if(savedScore<50){
+    document.getElementById("result").innerHTML= r ;
+    document.getElementById("d").style.background="#F24726";
+    document.getElementsByClassName("result")[0].style.background="#F24726";
+    document.getElementById("d").style.color="#F24726"; 
+    document.getElementById("massage").innerHTML="Unfortunately  ";
+    document.getElementById("cmassage").innerHTML=" You did not fulfill our requirements , Good Luck . ";
+    document.getElementById("emoji").src="https://acegif.com/wp-content/uploads/2022/4hv9xm/crying-emoji-9.gif"
 
+
+    
 }
 else
 {
