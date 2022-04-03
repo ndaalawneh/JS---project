@@ -1,5 +1,5 @@
 
-var r =90;
+var r =localStorage.getItem('score');
 
 
 

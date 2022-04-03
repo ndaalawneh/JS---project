@@ -17,7 +17,7 @@
 .cscore {
     font-family: 'Cairo', sans-serif;
     font-weight: bold;
-    font-size: 55pt;
+    font-size: 50pt;
 }
 
 .lo{
@@ -32,7 +32,7 @@
 #massage{
     font-family: 'Cairo', sans-serif;
     font-weight: bold;
-    font-size: 58pt;
+    font-size: 52pt;
     display: inline;
 }
 
@@ -51,6 +51,8 @@ body{
     color: var(--main-color1);
     transition: 2s;
     transition-delay: 1s;
+    overflow: hidden;
+    
     
 }
 
@@ -61,10 +63,13 @@ body{
     width: 80%;
     min-height: 95vh;
     margin: auto;
-    margin-top: 2.5vh;
+    margin-bottom: 4px;
     background-color: var(--main-color3);
     border-radius: 40px;
     align-items: center;
+    margin-top: 14px;
+    
+   
 
 }
 
@@ -87,6 +92,7 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 10px; 
+    margin-bottom: 5px;
 }
 
 
@@ -203,8 +209,16 @@ a:hover{
 @media screen and (max-width: 479px){
 
     .container {
+        display: flex;
+        flex-direction: column;
         width: 80%;
-      
+        min-height: 80vh;
+        margin: auto;
+        margin-bottom: 4px;
+        background-color: var(--main-color3);
+        border-radius: 40px;
+        align-items: center;
+        margin-top: 50px;
     }
 
     .cscore {
@@ -212,9 +226,11 @@ a:hover{
     }
 
     .result {
-        width: 170px;
-        height: 170px;
-        font-size: 40pt;
+
+            width: 130px;
+            height: 130px;
+            font-size: 40pt;
+        
         
     }
 
@@ -233,8 +249,11 @@ a:hover{
     }
 
     #emoji{
-        width: 60px;
-        height: 60px;
+    
+            width: 40px;
+            height: 40px;
+            margin-top: 20px;
+        
     }
 
     .g {
@@ -243,6 +262,8 @@ a:hover{
 
     .lo {
         width: 40px;
+        position: absolute;
+        left: 0px;
         
     }
 }
