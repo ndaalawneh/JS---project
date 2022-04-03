@@ -193,6 +193,11 @@ a:hover{
         text-align: center;
         padding-right: 30px;
     }
+
+    .lo {
+        width: 70px;
+       
+    }
 }
 
 @media screen and (max-width: 479px){
@@ -234,5 +239,10 @@ a:hover{
 
     .g {
         padding-left: 16px;
+    }
+
+    .lo {
+        width: 40px;
+        
     }
 }
